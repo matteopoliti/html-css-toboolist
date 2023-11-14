@@ -52,8 +52,15 @@ main{
     color: white;
 }
 
+section{
+    margin-block: 20px;
+}
 section h3{
     display: inline-block;
+}
+
+p{
+    margin: 10px;
 }
 
 p .check{
@@ -72,4 +79,23 @@ p .box{
 
 p .box.blue{
     background-color: rgba(71, 173, 241, 1);
+}
+
+p .box.purple{
+    background-color: rgba(156, 114, 228, 1);
+}
+
+p .cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+p .box.green{
+    background-color: rgba(100, 192, 169, 1);
+}
+
+p .box.orange{
+    background-color:rgba(242, 158, 51, 1);
 }
