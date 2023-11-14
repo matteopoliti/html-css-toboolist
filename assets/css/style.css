@@ -27,7 +27,7 @@ header h1{
 
 .container-main{
     width: 80%;
-    height: 500px;
+    
     margin: 2px auto;
     background-color: white;
     border-radius: 5px;
@@ -72,8 +72,8 @@ p .check{
 
 p .box{
     color: white;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 13px;
+    padding: 8px;
     font-size: 10px;
 }
 
@@ -98,4 +98,12 @@ p .box.green{
 
 p .box.orange{
     background-color:rgba(242, 158, 51, 1);
+}
+
+p .box.pink{
+    background-color:rgba(216, 99, 161, 1);
+}
+
+p .box.lightgreen{
+    background-color:rgba(176, 201, 38, 1);
 }
